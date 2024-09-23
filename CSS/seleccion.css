@@ -1,0 +1,59 @@
+
+
+
+
+/* .left-section{
+    background-image: url('../img/mujer 1.png');
+    background-size: 50%;
+    background-position: left;
+    height: 130vh;
+    background-repeat: no-repeat;
+}
+
+.right-section {
+    background-image: url('../img/hombre 1.png');
+    background-size: 50%;
+    background-position: right;
+    height: 130vh;
+    background-repeat: no-repeat;
+} */
+
+
+
+
+
+.container {
+    display: flex;
+}
+
+
+.right-section{
+    width:50%;
+    background-image: url('../img/hombre 1.png');
+}
+
+.left-section{
+    width:50%;
+    background-image: url('../img/mujer 1.png');
+}
+
+/*.layer1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1; 
+    text-align: center;
+    
+}
+
+.layer2 {
+    background-color: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+} */
