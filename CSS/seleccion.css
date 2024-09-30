@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+    height: 100vh;
+}
+
+.seleccion-hombre{
+    background-image: url('../img/hombre\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seleccion-mujer{
+    background-image: url('../img/mujer\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.link{
+    transform: rotate(270deg);
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
